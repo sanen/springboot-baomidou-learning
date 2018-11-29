@@ -5,6 +5,11 @@ spring:
     password: 123456
     filters: log4j,wall,mergeStat
     type: com.alibaba.druid.pool.DruidDataSource
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
 
 ###################  mybatis-plus配置  ###################
 mybatis-plus:
